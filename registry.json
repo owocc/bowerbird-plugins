@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T13:48:25.374Z",
+  "generatedAt": "2026-10-18T16:51:56.296Z",
   "plugins": [
     {
       "id": "official.audio-player",
       "name": "Audio Player",
-      "version": "1.0.0",
+      "version": "1.0.0-alpha",
       "description": "Interactive audio player with waveform scrubber, playback rate, volume control, and ID3 metadata display.",
       "author": "Bowerbird Team",
       "kind": "preview",
@@ -42,15 +42,15 @@
           ]
         }
       ],
-      "assetFileName": "official.audio-player-v1.0.0.zip",
+      "assetFileName": "official.audio-player-v1.0.0-alpha.zip",
       "manifestUrl": "/api/plugins/official.audio-player/manifest.json",
       "downloadUrl": "/api/plugins/official.audio-player/download",
-      "updatedAt": "2026-10-18T13:48:25.348Z"
+      "updatedAt": "2026-10-18T16:51:56.119Z"
     },
     {
       "id": "official.markdown-preview",
       "name": "Markdown Preview",
-      "version": "1.0.0",
+      "version": "1.0.0-alpha",
       "description": "Rich Markdown preview with syntax highlighting, task lists, frontmatter inspection, and table of contents outline.",
       "author": "Bowerbird Team",
       "kind": "preview",
@@ -87,15 +87,15 @@
           ]
         }
       ],
-      "assetFileName": "official.markdown-preview-v1.0.0.zip",
+      "assetFileName": "official.markdown-preview-v1.0.0-alpha.zip",
       "manifestUrl": "/api/plugins/official.markdown-preview/manifest.json",
       "downloadUrl": "/api/plugins/official.markdown-preview/download",
-      "updatedAt": "2026-10-18T13:48:25.366Z"
+      "updatedAt": "2026-10-18T16:51:56.188Z"
     },
     {
       "id": "official.prompt-metadata",
       "name": "AI Prompt Metadata",
-      "version": "1.0.0",
+      "version": "1.0.0-alpha",
       "description": "Extends asset metadata with a dedicated Prompt field for recording and searching AI generation prompts.",
       "author": "Bowerbird Team",
       "kind": "metadata",
@@ -121,10 +121,10 @@
           ]
         }
       ],
-      "assetFileName": "official.prompt-metadata-v1.0.0.zip",
+      "assetFileName": "official.prompt-metadata-v1.0.0-alpha.zip",
       "manifestUrl": "/api/plugins/official.prompt-metadata/manifest.json",
       "downloadUrl": "/api/plugins/official.prompt-metadata/download",
-      "updatedAt": "2026-10-18T13:48:25.374Z"
+      "updatedAt": "2026-10-18T16:51:56.296Z"
     }
   ]
 }

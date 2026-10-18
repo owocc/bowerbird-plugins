@@ -1,7 +1,7 @@
 {
   "id": "official.markdown-preview",
   "name": "Markdown Preview",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "description": "Rich Markdown preview with syntax highlighting, task lists, frontmatter inspection, and table of contents outline.",
   "author": "Bowerbird Team",
   "kind": "preview",
