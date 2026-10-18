@@ -1,0 +1,30 @@
+{
+  "id": "official.prompt-metadata",
+  "name": "AI Prompt Metadata",
+  "version": "1.0.0",
+  "description": "Extends asset metadata with a dedicated Prompt field for recording and searching AI generation prompts.",
+  "author": "Bowerbird Team",
+  "kind": "metadata",
+  "category": "metadata",
+  "priority": 50,
+  "extensions": [],
+  "supportsZoom": false,
+  "main": "index.js",
+  "license": "MIT",
+  "iconName": "sparkles",
+  "featured": true,
+  "downloadsCount": 2310,
+  "rating": 4.95,
+  "longDescription": "### Key Features\n- **Dedicated AI Prompt Field**: Easily record Midjourney, Stable Diffusion, DALL-E, ComfyUI, or custom LLM generation prompts for any image or asset.\n- **One-Click Clipboard Copy**: Instantly copy full generation prompts with length statistics.\n- **Inspector Integration**: Beautiful, non-intrusive collapsible panel directly in Bowerbird's right inspector sidebar.\n- **Searchable Metadata**: Prompts are stored in the asset manifest and seamlessly indexed for keyword search across your entire library.",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-18",
+      "notes": [
+        "Initial official release as a modular metadata extension",
+        "Auto-save with character and word counting",
+        "Clean Light and Dark mode adaptation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "official.audio-player",
+  "name": "Audio Player",
+  "version": "1.0.0",
+  "description": "Interactive audio player with waveform scrubber, playback rate, volume control, and ID3 metadata display.",
+  "author": "Bowerbird Team",
+  "kind": "preview",
+  "category": "preview",
+  "priority": 60,
+  "extensions": [
+    "mp3",
+    "wav",
+    "ogg",
+    "flac",
+    "m4a",
+    "aac",
+    "webm"
+  ],
+  "mimePrefixes": [
+    "audio/"
+  ],
+  "supportsZoom": false,
+  "main": "index.js",
+  "license": "MIT",
+  "iconName": "music",
+  "featured": true,
+  "downloadsCount": 980,
+  "rating": 4.8,
+  "longDescription": "### Key Features\n- **Multi-Format Playback**: Native audio playback for MP3, WAV, FLAC, OGG, M4A, AAC, and WebM streams.\n- **Interactive Scrubber**: Seamless scrubbing with live timestamp, duration formatting, and keyboard shortcuts (Space to play/pause, Left/Right arrows for seek).\n- **Speed & Volume Controls**: Variable playback speed (0.5x, 1x, 1.25x, 1.5x, 2x) with pitch preservation, mute toggle, and smooth volume slider.\n- **Metadata Cards**: Displays bitrate, sample rate, channels, duration, and file size in the sidebar inspector.",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-18",
+      "notes": [
+        "Initial official release built with @bowerbird/plugin-sdk",
+        "Smooth audio waveform scrubber and time display",
+        "Variable playback speed and volume memory"
+      ]
+    }
+  ]
+}

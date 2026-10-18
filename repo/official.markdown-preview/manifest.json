@@ -1,0 +1,41 @@
+{
+  "id": "official.markdown-preview",
+  "name": "Markdown Preview",
+  "version": "1.0.0",
+  "description": "Rich Markdown preview with syntax highlighting, task lists, frontmatter inspection, and table of contents outline.",
+  "author": "Bowerbird Team",
+  "kind": "preview",
+  "category": "preview",
+  "priority": 50,
+  "extensions": [
+    "md",
+    "markdown",
+    "mdown",
+    "mkd",
+    "mdwn",
+    "mdt"
+  ],
+  "mimePrefixes": [
+    "text/markdown",
+    "text/x-markdown"
+  ],
+  "supportsZoom": false,
+  "main": "index.js",
+  "license": "MIT",
+  "iconName": "file-text",
+  "featured": true,
+  "downloadsCount": 1420,
+  "rating": 4.9,
+  "longDescription": "### Key Features\n- **GitHub Flavored Markdown (GFM)**: Render tables, task lists, strikethrough, blockquotes, and code blocks with syntax highlighting.\n- **YAML Frontmatter Extraction**: Automatically parses header frontmatter (title, date, author, tags) and displays structured badge attributes.\n- **Document Outline**: Dynamic table of contents parsed from H1-H6 headings with instant click-to-scroll navigation.\n- **Full Zoom & Pan**: Interactive viewport zoom controls with mouse wheel or keyboard shortcuts.\n- **Copy Formatted Text & Markdown**: Quick action to copy raw markdown or rendered rich text.",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-18",
+      "notes": [
+        "Initial official release built with @bowerbird/plugin-sdk",
+        "Interactive Viewport with Zoom & Outline support",
+        "Inspector Preview with YAML frontmatter badges"
+      ]
+    }
+  ]
+}
