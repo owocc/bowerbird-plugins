@@ -1,7 +1,7 @@
 {
   "id": "official.prompt-metadata",
   "name": "AI Prompt Metadata",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha-1",
   "description": "Extends asset metadata with a dedicated Prompt field for recording and searching AI generation prompts.",
   "author": "Bowerbird Team",
   "kind": "metadata",

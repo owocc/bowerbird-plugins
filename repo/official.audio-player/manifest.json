@@ -1,7 +1,7 @@
 {
   "id": "official.audio-player",
   "name": "Audio Player",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha-1",
   "description": "Interactive audio player with waveform scrubber, playback rate, volume control, and ID3 metadata display.",
   "author": "Bowerbird Team",
   "kind": "preview",
