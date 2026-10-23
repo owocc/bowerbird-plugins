@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T15:24:52.780Z",
+  "generatedAt": "2026-10-23T16:23:44.139Z",
   "plugins": [
     {
       "id": "official.audio-player",
@@ -45,7 +45,7 @@
       "assetFileName": "official.audio-player-v1.0.0-alpha-1.zip",
       "manifestUrl": "/api/plugins/official.audio-player/manifest.json",
       "downloadUrl": "/api/plugins/official.audio-player/download",
-      "updatedAt": "2026-10-19T15:24:52.737Z"
+      "updatedAt": "2026-10-23T16:23:43.891Z"
     },
     {
       "id": "official.markdown-preview",
@@ -90,7 +90,7 @@
       "assetFileName": "official.markdown-preview-v1.0.0-alpha-1.zip",
       "manifestUrl": "/api/plugins/official.markdown-preview/manifest.json",
       "downloadUrl": "/api/plugins/official.markdown-preview/download",
-      "updatedAt": "2026-10-19T15:24:52.760Z"
+      "updatedAt": "2026-10-23T16:23:44.010Z"
     },
     {
       "id": "official.prompt-metadata",
@@ -124,7 +124,7 @@
       "assetFileName": "official.prompt-metadata-v1.0.0-alpha-1.zip",
       "manifestUrl": "/api/plugins/official.prompt-metadata/manifest.json",
       "downloadUrl": "/api/plugins/official.prompt-metadata/download",
-      "updatedAt": "2026-10-19T15:24:52.780Z"
+      "updatedAt": "2026-10-23T16:23:44.139Z"
     }
   ]
 }
