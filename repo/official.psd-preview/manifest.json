@@ -1,0 +1,36 @@
+{
+  "id": "official.psd-preview",
+  "name": "PSD Preview",
+  "version": "1.0.0-alpha-1",
+  "description": "Native Photoshop (.psd / .psb) preview: renders the flattened composite, reports document properties and exposes the layer tree.",
+  "author": "Bowerbird Team",
+  "kind": "preview",
+  "category": "preview",
+  "priority": 95,
+  "extensions": ["psd", "psb"],
+  "mimePrefixes": [
+    "image/vnd.adobe.photoshop",
+    "image/x-photoshop",
+    "image/photoshop",
+    "image/psd",
+    "application/x-photoshop"
+  ],
+  "supportsZoom": true,
+  "main": "index.js",
+  "license": "MIT",
+  "iconName": "file-image",
+  "featured": true,
+  "longDescription": "### Key Features\n- **Composite rendering**: reproduces the merged image Photoshop stores inside the file, so what you see is what the designer flattened — no layer flattening needed on our side.\n- **Layer tree in the inspector**: reads the layer groups and visibility flags, so you can tell whether the copy you are looking at is the currently-hidden variant.\n- **Document properties**: pixel dimensions, color mode (RGB / CMYK / grayscale), bit depth, layer count and whether the document carries alpha transparency.\n- **Thumbnail-first inspector**: uses the embedded thumbnail for the right-hand panel so browsing a folder of PSDs stays fast, then upgrades to the full composite once the file is parsed.\n- **Zoom & pan**: percentage zoom with fit-to-window, driven by the host's zoom controls.",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-02",
+      "notes": [
+        "Initial release built with @bowerbird/plugin-sdk",
+        "Composite viewport with zoom & pan",
+        "Layer tree + document properties in the inspector",
+        "Copy PSD summary context menu action"
+      ]
+    }
+  ]
+}
