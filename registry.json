@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T11:20:08.942Z",
+  "generatedAt": "2026-11-03T02:35:57.768Z",
   "plugins": [
     {
       "id": "official.audio-player",
@@ -45,7 +45,7 @@
       "assetFileName": "official.audio-player-v1.0.0-alpha-1.zip",
       "manifestUrl": "/api/plugins/official.audio-player/manifest.json",
       "downloadUrl": "/api/plugins/official.audio-player/download",
-      "updatedAt": "2026-11-02T11:20:08.818Z"
+      "updatedAt": "2026-11-03T02:35:57.645Z"
     },
     {
       "id": "official.markdown-preview",
@@ -90,12 +90,12 @@
       "assetFileName": "official.markdown-preview-v1.0.0-alpha-1.zip",
       "manifestUrl": "/api/plugins/official.markdown-preview/manifest.json",
       "downloadUrl": "/api/plugins/official.markdown-preview/download",
-      "updatedAt": "2026-11-02T11:20:08.839Z"
+      "updatedAt": "2026-11-03T02:35:57.666Z"
     },
     {
       "id": "official.prompt-metadata",
       "name": "AI Prompt Metadata",
-      "version": "1.0.0-alpha-1",
+      "version": "1.0.1",
       "description": "Extends asset metadata with a dedicated Prompt field for recording and searching AI generation prompts.",
       "author": "Bowerbird Team",
       "kind": "metadata",
@@ -109,8 +109,18 @@
       "featured": true,
       "downloadsCount": 2310,
       "rating": 4.95,
-      "longDescription": "### Key Features\n- **Dedicated AI Prompt Field**: Easily record Midjourney, Stable Diffusion, DALL-E, ComfyUI, or custom LLM generation prompts for any image or asset.\n- **One-Click Clipboard Copy**: Instantly copy full generation prompts with length statistics.\n- **Inspector Integration**: Beautiful, non-intrusive collapsible panel directly in Bowerbird's right inspector sidebar.\n- **Searchable Metadata**: Prompts are stored in the asset manifest and seamlessly indexed for keyword search across your entire library.",
+      "longDescription": "### Key Features\n- **Dedicated AI Prompt Field**: Easily record Midjourney, Stable Diffusion, DALL-E, ComfyUI, or custom LLM generation prompts for any image or asset.\n- **Compact Height-Capped Read-out**: Long prompts stay inside a fixed-height, scrollable preview so the inspector sidebar never turns into an endless text wall.\n- **Expand into a Full Dialog**: One click opens the prompt in a roomy, distraction-free dialog (Esc or backdrop click to close) with its own copy action.\n- **One-Click Clipboard Copy**: Copy the full generation prompt at any time, with Copy/Copied feedback and a legacy clipboard fallback.\n- **Inspector Integration**: Beautiful, non-intrusive collapsible panel directly in Bowerbird's right inspector sidebar, with auto-save on blur.\n- **Searchable Metadata**: Prompts are stored in the asset manifest and seamlessly indexed for keyword search across your entire library.",
       "changelog": [
+        {
+          "version": "1.0.1",
+          "date": "2026-11-03",
+          "notes": [
+            "Header is now icon-free and badge-free: no leading property icon, no character-count badge",
+            "Prompt read-out is now height-capped with an Expand dialog for full-length prompts",
+            "Copy is a single icon button that swaps to a check mark (Copy/Copied tooltip) with a legacy clipboard fallback",
+            "Auto-saving inline editor with Cmd/Ctrl+Enter to save and Esc to cancel"
+          ]
+        },
         {
           "version": "1.0.0",
           "date": "2026-10-18",
@@ -121,10 +131,10 @@
           ]
         }
       ],
-      "assetFileName": "official.prompt-metadata-v1.0.0-alpha-1.zip",
+      "assetFileName": "official.prompt-metadata-v1.0.1.zip",
       "manifestUrl": "/api/plugins/official.prompt-metadata/manifest.json",
       "downloadUrl": "/api/plugins/official.prompt-metadata/download",
-      "updatedAt": "2026-11-02T11:20:08.857Z"
+      "updatedAt": "2026-11-03T02:35:57.686Z"
     },
     {
       "id": "official.psd-preview",
@@ -167,7 +177,7 @@
       "assetFileName": "official.psd-preview-v1.0.0-alpha-1.zip",
       "manifestUrl": "/api/plugins/official.psd-preview/manifest.json",
       "downloadUrl": "/api/plugins/official.psd-preview/download",
-      "updatedAt": "2026-11-02T11:20:08.942Z"
+      "updatedAt": "2026-11-03T02:35:57.768Z"
     }
   ]
 }

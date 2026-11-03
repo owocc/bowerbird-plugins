@@ -1,7 +1,7 @@
 {
   "id": "official.prompt-metadata",
   "name": "AI Prompt Metadata",
-  "version": "1.0.0-alpha-1",
+  "version": "1.0.1",
   "description": "Extends asset metadata with a dedicated Prompt field for recording and searching AI generation prompts.",
   "author": "Bowerbird Team",
   "kind": "metadata",
@@ -15,8 +15,18 @@
   "featured": true,
   "downloadsCount": 2310,
   "rating": 4.95,
-  "longDescription": "### Key Features\n- **Dedicated AI Prompt Field**: Easily record Midjourney, Stable Diffusion, DALL-E, ComfyUI, or custom LLM generation prompts for any image or asset.\n- **One-Click Clipboard Copy**: Instantly copy full generation prompts with length statistics.\n- **Inspector Integration**: Beautiful, non-intrusive collapsible panel directly in Bowerbird's right inspector sidebar.\n- **Searchable Metadata**: Prompts are stored in the asset manifest and seamlessly indexed for keyword search across your entire library.",
+  "longDescription": "### Key Features\n- **Dedicated AI Prompt Field**: Easily record Midjourney, Stable Diffusion, DALL-E, ComfyUI, or custom LLM generation prompts for any image or asset.\n- **Compact Height-Capped Read-out**: Long prompts stay inside a fixed-height, scrollable preview so the inspector sidebar never turns into an endless text wall.\n- **Expand into a Full Dialog**: One click opens the prompt in a roomy, distraction-free dialog (Esc or backdrop click to close) with its own copy action.\n- **One-Click Clipboard Copy**: Copy the full generation prompt at any time, with Copy/Copied feedback and a legacy clipboard fallback.\n- **Inspector Integration**: Beautiful, non-intrusive collapsible panel directly in Bowerbird's right inspector sidebar, with auto-save on blur.\n- **Searchable Metadata**: Prompts are stored in the asset manifest and seamlessly indexed for keyword search across your entire library.",
   "changelog": [
+    {
+      "version": "1.0.1",
+      "date": "2026-11-03",
+      "notes": [
+        "Header is now icon-free and badge-free: no leading property icon, no character-count badge",
+        "Prompt read-out is now height-capped with an Expand dialog for full-length prompts",
+        "Copy is a single icon button that swaps to a check mark (Copy/Copied tooltip) with a legacy clipboard fallback",
+        "Auto-saving inline editor with Cmd/Ctrl+Enter to save and Esc to cancel"
+      ]
+    },
     {
       "version": "1.0.0",
       "date": "2026-10-18",
