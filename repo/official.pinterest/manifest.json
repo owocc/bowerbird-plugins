@@ -1,0 +1,31 @@
+{
+  "id": "official.pinterest",
+  "name": "Pinterest",
+  "version": "1.0.0",
+  "description": "Parse Pinterest pin URLs and save the original image into your Bowerbird library.",
+  "author": "Bowerbird Team",
+  "kind": "metadata",
+  "category": "metadata",
+  "subCategory": "media",
+  "priority": 55,
+  "extensions": [],
+  "supportsZoom": false,
+  "main": "index.js",
+  "license": "MIT",
+  "iconName": "image",
+  "featured": true,
+  "downloadsCount": 0,
+  "rating": 0,
+  "longDescription": "### Key Features\n- **Pin URL import**: Paste any Pinterest pin URL (regional domains and pin.it short links included) and save the linked image.\n- **Original rendition**: Pin pages are resolved to the original `i.pinimg.com/originals/...` image instead of saving a thumbnail or the HTML page.\n- **Source URL preserved**: The pin page is stored as the item's source URL while the actual image is downloaded.\n- **Inspector shortcut**: Items whose source URL is a Pinterest pin get a one-click **Save image** action.\n- **Context menu**: Right-click the canvas and choose **Save Pinterest Pin…** from Plugin Actions.",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-07",
+      "notes": [
+        "Initial release",
+        "Resolve Pinterest pin pages to their original image and import into Bowerbird",
+        "Support pin.it short links and direct i.pinimg.com URLs"
+      ]
+    }
+  ]
+}
